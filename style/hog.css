@@ -12,7 +12,10 @@ a {
 header{
     font-family: 18px;
     position: relative;
-    
+}
+.ghost{
+    width: 100%;
+    height: 40px;
 }
 .logo {
     width: 100%;
@@ -20,7 +23,7 @@ header{
     display: grid;
     justify-content: center;
     align-content: center;
-    background-color: #FFCE33;
+    background-color: rgb(226, 185, 48);
 }
 .abs-pos{
     position: absolute;
@@ -43,7 +46,6 @@ header{
 .nav-bar ul{
     display: grid;
     grid-auto-flow: column;
-    
 }
 .nav-bar li{
     width: 141px;
@@ -57,33 +59,122 @@ header{
     color: black;
     font-size: 1em;
 }
-
 main section:nth-child(1){
     height: 100vh;
-    background: #D50000;
+    background: #bf1f27;
+    font-size: 40px;   
 }
 main section img:nth-child(1){
-    width: 300px;
-    height: 300px;
-    
+    width: 400px;
+    height: 450px;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: -200px;
+}
+.gr{
+    color: #bf1f27;
+    width: 1px;
+}
+.so{
+    color: #2fad4a;
+    width: 1px;
+}
+.lu{
+    color: #dcb728;
+    width: 1px;
+}
+.co{
+    color: #078db3;
+    width: 1px;
+}
+main section img:nth-child(2){
+    width: 400px;
+    height: 450px;
+    float: right;
+    margin-right: 140px;
+    margin-top: -225px;
 }
 main section:nth-child(2){
     height: 100vh;
-    background: #00A00C;
+    background: #2fad4a;
+}
+main section img:nth-child(3){
+    width: 400px;
+    height: 450px;
+    float: right;
+    margin-right: 140px;
+    margin-top: -225px;
 }
 main section:nth-child(3){
     height: 100vh;
-    background: #0055A0;
+    background: #078db3;
+}
+.brco{
+    font-size: 17px;
+    text-indent: 30px;
+    text-align: left;
+    margin: 0px;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 150px;
+    margin-bottom: auto;
+    width: 600px;
+    text-justify: inter-word;
+    text-align: justify;
+}
+main section img:nth-child(4){
+    width: 400px;
+    height: 450px;
+    float: right;
+    margin-right: 140px;
+    margin-top: -225px;
 }
 main section:nth-child(4){
     height: 100vh;
-    background: #CDBA00;
+    background: #dcb728;
 }
 main section {
-    display: grid;
-    justify-content: center;
-    align-content: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 45px;
     grid-template-columns: 900px 300px;
+    
 }
+.grifi1 h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-decoration-line: overline;
+    width: 30%;
+}
+.grifi1{
+    font-size: 20px;
+    text-indent: 30px;
+    text-align: left;
+    margin: 0px;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 130px;
+    margin-bottom: auto;
+    width: 600px;
+    text-justify: inter-word;
+    text-align: justify;
+}
+.grifi{
+    font-size: 20px;
+    text-indent: 30px;
+    text-align: left;
+    margin: 0px;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 150px;
+    margin-bottom: auto;
+    width: 600px;
+    text-justify: inter-word;
+    text-align: justify;
+}
+.grifi h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-decoration-line: overline;
+    width: 30%;
+    
+}
+
