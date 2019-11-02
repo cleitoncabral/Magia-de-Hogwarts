@@ -64,12 +64,23 @@ main section:nth-child(1){
     background: #bf1f27;
     font-size: 40px;   
 }
-main section img:nth-child(1){
-    width: 400px;
-    height: 450px;
+.imagemgri{
     float: right;
-    margin-right: 40px;
-    margin-bottom: -200px;
+    margin-right: 140px;
+    margin-top: -280px;
+}
+.brco1{
+    font-size: 17px;
+    text-indent: 30px;
+    text-align: left;
+    margin: 0px;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 110px;
+    margin-bottom: auto;
+    width: 600px;
+    text-justify: inter-word;
+    text-align: justify;
 }
 .gr{
     color: #bf1f27;
@@ -92,7 +103,7 @@ main section img:nth-child(2){
     height: 450px;
     float: right;
     margin-right: 140px;
-    margin-top: -225px;
+    margin-top: -255px;
 }
 main section:nth-child(2){
     height: 100vh;
