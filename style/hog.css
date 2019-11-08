@@ -259,10 +259,48 @@ main section {
     opacity: 95%;
 }
 #info{
-    display: block;
+    text-align: justify;
+    justify-content: left;
 }
 .btn_submit{
-    color: blue;
-    background-color: chartreuse;
-    border-style: dotted;
+    color: white;
+    background-color: #b81c24;
+    border-style: none;
+}
+legend{
+    margin-bottom: 20px;
+    font-size: 27px;
+    text-align: center;
+}
+label{
+    font-size: 18px;;
+    margin-bottom: 20px;
+    position: relative;
+    left: 39%;
+    top: 1px;
+    opacity: 79%;
+}
+input{
+    margin-bottom: 20px;
+    position: relative;
+    left: 39%;
+    top: 1px;
+    width: 185px;
+    height: 24px;
+    border-radius: 10px;
+    border: 2px solid #078db3;
+}
+select{
+    width: 185px;
+    height: 24px;
+    display: block;
+    position: relative;
+    left: 39%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #078db3;
+}
+.btn_submit{
+    border-radius: 10px;
+    border: 2px;
 }
