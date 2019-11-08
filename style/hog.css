@@ -76,7 +76,7 @@ header{
 }
 main section:nth-child(1){
     height: 100vh;
-    background: #bf1f27;
+    background: #b81c24;
     font-size: 40px;   
 }
 .imagemgri{
@@ -111,7 +111,7 @@ main section:nth-child(1){
     text-align: justify;
 }
 .gr{
-    color: #bf1f27;
+    color: #b81c24;
     width: 1px;
 }
 .so{
@@ -214,6 +214,55 @@ main section {
     font-size: 30px;
     text-decoration-line: overline;
     width: 30%;
-    
 }
-
+#bruxos{
+    width: 100%;
+    display: inline;
+    clear: both;
+}
+.grd{
+    width: 25%;
+    height: 100vh;
+    float: left;
+    background-color: #b81c24;
+}
+.sod{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    background-color: #2fad4a;
+}
+.cod{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    background-color: #078db3;
+}
+.lud{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    background-color: #dcb728;
+}
+.formularios{
+    float: center;
+}
+.fundo{
+    position: absolute;
+    float: center;
+    margin-top: 87px;
+    margin-left: 237px;;
+    padding: 30px;
+    width: 65%;
+    height: 80%;
+    background-color: #bf900d;
+    opacity: 95%;
+}
+#info{
+    display: block;
+}
+.btn_submit{
+    color: blue;
+    background-color: chartreuse;
+    border-style: dotted;
+}
